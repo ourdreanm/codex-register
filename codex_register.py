@@ -61,8 +61,8 @@ PROXY_CACHE_FILE = os.path.join(SCRIPT_DIR, "proxy_cache.json")
 # 邮箱后缀
 EMAIL_DOMAINS = ["yifang.de5.net"]
 # Token 上传服务器
-CPA_URL = "" #https://127.0.0.1:8317
-MANAGEMENT_KEY = ""   #wzl1230.
+CPA_URL = "https://cpafan-dai.onrender.com" #https://127.0.0.1:8317
+MANAGEMENT_KEY = "wzl1230."   #wzl1230.
 # MailAPI 配置（固定）
 MAIL_API_URL = "https://mail-api.yifang.de5.net"
 MAIL_API_AUTH = "wzl1230."
