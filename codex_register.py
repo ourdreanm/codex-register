@@ -58,7 +58,7 @@ PROXY_CACHE_FILE = os.path.join(SCRIPT_DIR, "proxy_cache.json")
 
 
 #邮箱域名域名
-EMAIL_DOMAINS = _env_list("EMAIL_DOMAINS", [""])
+EMAIL_DOMAINS = _env_list("EMAIL_DOMAINS", "")
  # Token 上传服务器
 CPA_URL = _env("CPA_URL", "")
  # Token 上传服务器密码
