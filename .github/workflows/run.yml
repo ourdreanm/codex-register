@@ -14,7 +14,7 @@
     run:
       runs-on: ubuntu-latest
       env:
-        EMAIL_DOMAINS: ${{ vars.EMAIL_DOMAINS }}
+        EMAIL_DOMAINS: ${{ secrets.EMAIL_DOMAINS }}
         CPA_URL: ${{ secrets.CPA_URL }}
         MANAGEMENT_KEY: ${{ secrets.MANAGEMENT_KEY }}
         MAIL_API_URL: ${{ secrets.MAIL_API_URL }}
