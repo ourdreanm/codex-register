@@ -65,13 +65,13 @@ def _env(key: str, default: str = "") -> str:
 # 邮箱域名
 EMAIL_DOMAINS = _env("EMAIL_DOMAINS", "mail.xheng.cc.cd")
 # Token 上传服务器
-CPA_URL = _env("CPA_URL", "https://cpafan-dai.onrender.com/management.html")
+CPA_URL = _env("CPA_URL", "https://cpafan-dai.onrender.com")
 # Token 上传服务器密码
 MANAGEMENT_KEY = _env("MANAGEMENT_KEY", "wzl1230.")
 # MailAPI 配置邮箱
 MAIL_API_URL = _env("MAIL_API_URL", "https://apimail.xheng.cc.cd")
 # MailAPI 配置邮箱密码
-MAIL_API_AUTH = _env("MAIL_API_AUTH", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZGRyZXNzIjoiYmFvQHhoZW5nLmNjLmNkIiwiYWRkcmVzc19pZCI6IjEifQ.LEL_mx5M3Myr3JmUONqBSe17-IDAYxMSj40MIFJanGw")
+MAIL_API_AUTH = _env("MAIL_API_AUTH", "962464jj")
 MAIL_PASSWD = ""  # 可选，cloudflare_temp_email私有站点密码
 # 超时与重试
 MAIL_POLL_TIMEOUT = 180
